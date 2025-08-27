@@ -17,8 +17,7 @@ from sklearn.impute import SimpleImputer, KNNImputer
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures
-from sklearn.feature_selection import SelectKBest, f_regression, f_classif
-from sklearn.metrics import mutual_info_regression, mutual_info_classif
+from sklearn.feature_selection import SelectKBest, f_regression, f_classif, mutual_info_regression, mutual_info_classif
 from scipy import stats
 from scipy.stats import zscore
 
@@ -966,4 +965,4 @@ def main():
         """)
 
 if __name__ == "__main__":
-    main()
+    main()    main()
